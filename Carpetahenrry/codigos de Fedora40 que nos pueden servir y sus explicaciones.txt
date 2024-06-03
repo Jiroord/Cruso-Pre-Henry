@@ -1,0 +1,129 @@
+touch
+
+Descripción: Crea un archivo vacío o actualiza la marca de tiempo de un archivo existente.
+Comando:
+
+touch nombre_del_archivo
+Ejemplo:
+
+touch archivo.txt
+
+
+
+echo
+
+Descripción: Crea un archivo con contenido específico.
+Comando:
+
+echo "contenido del archivo" > nombre_del_archivo
+Ejemplo:
+
+echo "Hola, mundo" > archivo.txt
+
+
+
+cat
+
+Descripción: Crea un archivo con contenido específico (usa EOF para terminar la entrada).
+Comando:
+
+cat > nombre_del_archivo
+Ejemplo:
+
+cat > archivo.txt
+Hola, mundo
+(presiona Ctrl+D para terminar)
+
+
+
+mv
+Descripción: Mueve o renombra archivos y directorios.
+Comando:
+
+mv origen destino
+Ejemplo:
+
+mv archivo.txt /ruta/al/nuevo/directorio/
+mv archivo.txt nuevo_nombre.txt
+
+
+
+rm
+
+Descripción: Elimina archivos.
+Comando:
+
+rm nombre_del_archivo
+Ejemplo:
+
+rm archivo.txt
+
+
+
+rm -r
+
+Descripción: Elimina directorios y su contenido de forma recursiva.
+Comando:
+
+rm -r nombre_del_directorio
+Ejemplo:
+
+rm -r directorio
+
+
+
+cp
+
+Descripción: Copia archivos o directorios.
+Comando:
+
+cp origen destino
+Ejemplo:
+
+cp archivo.txt /ruta/al/nuevo/directorio/
+cp archivo.txt copia_archivo.txt
+
+
+
+ls
+
+Descripción: Lista archivos y directorios en el directorio actual.
+Comando:
+
+ls
+Ejemplo:
+
+ls
+
+
+
+mkdir
+
+Descripción: Crea un nuevo directorio.
+Comando:
+
+mkdir nombre_del_directorio
+Ejemplo:
+
+mkdir nuevo_directorio
+
+
+
+rmdir
+
+Descripción: Elimina un directorio vacío.
+Comando:
+
+rmdir nombre_del_directorio
+Ejemplo:
+
+rmdir directorio_vacio
+
+
+
+Uso de sudo para permisos elevados
+Algunas operaciones pueden requerir permisos de superusuario. Para ejecutar un comando con permisos elevados, usa sudo al principio del comando.
+
+Ejemplo:
+
+sudo rm -r /ruta/al/directorio
